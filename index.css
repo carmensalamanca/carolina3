@@ -1,0 +1,73 @@
+body{ 
+  background-color:#FFE2B7;
+  text-align:justify;
+}
+header{ 
+	font-size:30px; 
+	text-align: center;     
+}
+ul{
+  list-style-type:none;
+  text-align:center;
+}
+li {
+  font-size: 25px;
+  display: inline;
+  margin: 0 100px 0 0;
+}
+a {
+  text-decoration: none;
+ }
+
+.boton-personalizado { 
+text-decoration:none;
+font-weight: 600;
+font-size: 20px;
+color:#000000;
+padding-top:15px;
+padding-bottom:15px;
+padding-left:10px;
+padding-right:10px;  
+background-color: transparent;
+border-width: 3px;
+border-style: solid;
+border-color: #000000;
+}
+/* Este es el estilo al poner el cursor encima del boton*/
+.boton-personalizado:hover {
+background-color:	#FFC883;
+}
+.navegacion ul{
+  list-style: none;
+}
+.menu > li{
+  /*position: relative;*/
+  display: inline-block;
+}
+.menu > li > a{
+  display : block;
+  padding: 15px 20px;
+  text-decoration: none;
+}
+.menu li a: hover {
+background-color:	#FFC883;
+transition: all .3s;  
+}
+/*Submenu*/
+.submenu{
+  position: absolute;
+  background: #333333;
+  visibility: hidden;
+  opacity: 0px;
+  transition: opacity 1.5s;
+}
+.submenu li a{
+  display: block;
+  padding: 10px;
+  color:#fff;
+  text-decoration:none;
+}
+.menu li:hover .submenu{
+  visibility: visible;
+  opacity: 1px;
+

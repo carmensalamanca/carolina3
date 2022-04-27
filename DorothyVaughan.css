@@ -1,0 +1,17 @@
+body{
+  background-color:#FFE2B7;
+  text-align:justify;
+}
+h1{
+  font-size:50px;
+  text-align:center;
+}
+h2{
+  font-size:25px;  
+  text-align:center;
+}
+em {
+  font-style: oblique;
+}
+
+
